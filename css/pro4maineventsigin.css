@@ -1,0 +1,114 @@
+body {
+  background-color: rgba(194, 191, 191, 0.979);
+  margin: 0px;
+  padding: 0px;
+}
+#outbox {
+  /* border: 3px solid yellow; */
+  width: 800px;
+  height: 550px;
+  position: relative;
+  left: 250px;
+  margin-top: 40px;
+}
+#innerbox {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  /* grid-column-gap: 6px; */
+}
+#leftboxside {
+  background-image: url("../media/siginn4\ \(2\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+#leftboxside h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 47px;
+  font-weight: 500px;
+  margin-top: 122px;
+  margin-left: 12px;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+#leftboxside h6 {
+  font-size: 17px;
+  font-weight: 500px;
+  margin-left: 12px;
+  color: rgba(255, 255, 255, 0.459);
+}
+#leftboxside button {
+  width: 97px;
+  height: 46px;
+  padding-left: 12px;
+  font-size: 18px;
+  border-radius: 12px;
+  background-color: #727768cf;
+  color: white;
+  margin-left: 22px;
+  cursor: pointer;
+}
+#leftboxside button:hover {
+  background-color: rgb(27, 78, 34);
+  color: black;
+  font-weight: bolder;
+}
+#rightboxside {
+  /* border: 2px solid green; */
+  padding-top: 50px;
+  width: 400px;
+  background-color: rgba(128, 128, 128, 0.555);
+}
+#rightboxside h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 47px;
+  font-weight: 500px;
+  color: rgb(255, 255, 255);
+  margin-left: 22px;
+}
+
+#form input {
+  margin-left: 22px;
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 18px;
+  width: 275px;
+  height: 34px;
+  margin-bottom: 12px;
+}
+
+.btn input {
+  font-size: 22px;
+  padding: 10px;
+  margin-left: 34px;
+  border-radius: 18px;
+  font-weight: bolder;
+  width: 118px;
+  height: 51px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(90, 92, 90, 0.781);
+}
+.btn :hover {
+  font-size: 22px;
+  background-color: rgb(64, 136, 54);
+  color: black;
+}
+#rightboxside button {
+  background-color: #283b98;
+  color: #f7f7f0;
+  width: 219px;
+  height: 49px;
+  cursor: pointer;
+  border-radius: 31px;
+  margin-left: 44px;
+  margin-top: 22px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+#rightboxside button:hover {
+  background-color: rgba(75, 71, 65, 0.795);
+  color: rgb(20, 20, 20);
+  border: green;
+}

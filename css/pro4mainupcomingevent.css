@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(255, 251, 251);
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../media/pro4bg\ \(6\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#searchboxitem h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-left: 69px;
+  font-family: "Xanh Mono", monospace;
+  margin-bottom: -4px;
+  text-shadow: 20px 8px 7px #37c12ee0;
+}
+#formgroup {
+  border: 3px solid yellow;
+  border: transparent;
+  border-radius: 12px;
+  width: 348px;
+  height: 485px;
+  margin-left: 55px;
+  /* margin-top: 12px; */
+  padding-top: 12px;
+  padding-left: 12px;
+  background-color: rgba(107, 100, 74, 0.315);
+}
+label {
+  font-size: 22px;
+  font-family: "Xanh Mono", monospace;
+  font-weight: 600;
+  margin-right: 8px;
+  color: rgba(206, 203, 203, 0.973);
+}
+#formgroup input {
+  padding: 8px 12px;
+  font-size: 18px;
+  width: 300px;
+  height: 34px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+  background-color: rgba(128, 128, 128, 0.295);
+  color: white;
+}
+#formgroup #checkbox {
+  width: 15px;
+  height: 15px;
+}
+#formgroup #btn {
+  width: 126px;
+  height: 43px;
+  padding: 4px 2px;
+  background-color: gray;
+  color: #fffdfd;
+  margin-left: 22px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#formgroup #btn:hover {
+  background-color: rgb(27, 100, 27);
+  color: rgba(10, 10, 10, 0.452);
+  font-weight: 800;
+}
+p {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 19px;
+}
